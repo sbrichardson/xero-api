@@ -1,0 +1,12 @@
+{
+  "name": "xero-api",
+  "description": "Xero API wrapper using OAuth1Binding of Meteor Xero Service",
+  "homepage": "https://github.com/axwaxw/xero-api",
+  "author": "Alex Webster",
+  "version": "0.1.0",
+  "git": "https://github.com/axwaxw/xero-api.git",
+  "packages": {
+		"accounts-xero": {},
+		"xero": {}
+  }
+}
