@@ -1,4 +1,4 @@
-Xero API Package
+Xero API Package (Under Development)
 ================
 
 xero-api is a simple package to wrap the Xero API using Meteorite's Xero Service OAuth1Binding class. 
