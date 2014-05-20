@@ -25,3 +25,4 @@ Coming Soon
 
 ### Credits
 
+Based on wbartley's [meteor-fitbit-api](https://github.com/wbartley/meteor-fitbit-api)
