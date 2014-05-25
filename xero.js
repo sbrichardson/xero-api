@@ -8,12 +8,12 @@ xero.prototype._getUrl = function(url){
   return [this._url, this._version, url].join('/');
 };
 
-xero.prototype.get = function(url,params){
-  return this.call('GET',url,params);
-};
+xero.prototype.get = function(url, params){
+  return this.call('GET', url, params);
+}; 
 
 xero.prototype.post = function(url, params){
-  return this.call('POST',url,params);
+  return this.call('POST', url, params);
 };
 
 xero.prototype.call = function(method, url, params){
@@ -45,11 +45,11 @@ xero.prototype.getOauthBindingForCurrentUser = function(){
   return oauthBinding;
 };
 
-xero.prototype.userProfile = function() {
-  return this.get('user/-/profile.json');
+xero.prototype.organisation = function() {
+  return this.get('organisation.json');
 };
 
-xero.prototype.getSteps = function() {
- 	return this.get('user/-/activities/steps/date/today/7d.json');
+xero.prototype.accounts = function() {
+ 	return this.get('accounts.json');
 };
 
