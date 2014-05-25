@@ -39,8 +39,8 @@ xeroApi.prototype.getOauthBindingForCurrentUser = function(){
   var oauthBinding = this.getOauthBinding();
 
   var user = Meteor.user();
-  //oauthBinding.accessToken = user.services.xero.accessToken;
-  //oauthBinding.accessTokenSecret = user.services.xero.accessTokenSecret;
+  oauthBinding.accessToken = user.services.xero.accessToken;
+  oauthBinding.accessTokenSecret = user.services.xero.accessTokenSecret;
 
   return oauthBinding;
 };
